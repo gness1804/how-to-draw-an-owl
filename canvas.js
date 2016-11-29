@@ -6,7 +6,7 @@ const draw = canvas.getContext("2d");
 
 draw.beginPath();
 draw.arc(200, 400, 100, 0, 2*Math.PI);
-// draw.strokeStyle = ""; //not needed if filling the entire thing
+// draw.strokeStyle = ""; //not needed if filling the entire circle
 draw.fillStyle = "rgb(152, 145, 158)";
 draw.fill();
 // draw.closePath(); //not needed if using "fill()"
