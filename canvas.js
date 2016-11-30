@@ -17,3 +17,8 @@ draw.beginPath();
 draw.arc(354, 300, 100, 0, 2*Math.PI);
 draw.fillStyle = "rgb(175, 184, 190)";
 draw.fill();
+
+//the head
+
+draw.fillStyle = "rgb(175, 184, 190)";
+draw.fillRect(291, 95, 130, 130);
