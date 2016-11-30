@@ -1,12 +1,13 @@
+//this lets you click anywhere on the page and see the x and y coordinates
 let trackingMouse = true;
 
-//allows you to track the mouse movement in order to pinpoint x and y coordinates on the page
-document.onmousemove = (e) => {
+$(document).ready(() => {
+  $(document).on('click', (e) => {
     if (trackingMouse) {
-        var x = e.pageX;
-        var y = e.pageY;
-        console.log(`The x coordinate is: ${x}`);
-        console.log(`The y coordinate is: ${y}`);
+      let x = e.pageX;
+      let y = e.pageY;
+      console.log(`The x coordinate is: ${x}`);
+      console.log(`The y coordinate is: ${y}`);
     }
-
-};
+  });
+});
