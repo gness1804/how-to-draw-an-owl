@@ -36,3 +36,16 @@ draw.beginPath();
 draw.arc(375, 125, 15, 0, 2*Math.PI);
 draw.fillStyle = "black";
 draw.fill();
+
+//the beak
+
+draw.beginPath(); //needed when starting a shape made up of multiple lines, such as a triangle
+draw.moveTo(309, 167);
+draw.lineTo(336, 188);
+draw.lineTo(357, 167);
+draw.lineTo(309, 167);
+draw.strokeStyle = "yellow";
+draw.stroke();
+draw.fillStyle = "yellow";
+draw.fill(); 
+//draw.closePath(); //again, not needed if using draw.fill()
