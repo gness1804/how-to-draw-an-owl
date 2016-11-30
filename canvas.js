@@ -50,9 +50,11 @@ draw.fillStyle = "yellow";
 draw.fill();
 //draw.closePath(); //again, not needed if using draw.fill()
 
-//the wing on the right
+//the wings
 
 window.onload = () => {
   const imageName = document.getElementById("wing-right");
   draw.drawImage(imageName, 435, 243, 150, 150);
+  const imageName2 = document.getElementById("wing-left");
+  draw.drawImage(imageName2, 140, 243, 150, 150);
 };
