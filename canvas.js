@@ -22,3 +22,17 @@ draw.fill();
 
 draw.fillStyle = "rgb(175, 184, 190)";
 draw.fillRect(291, 95, 130, 130);
+
+//left eye from viewer perspective
+
+draw.beginPath();
+draw.arc(313, 125, 15, 0, 2*Math.PI);
+draw.fillStyle = "black";
+draw.fill();
+
+//right eye from viewer perspective
+
+draw.beginPath();
+draw.arc(375, 125, 15, 0, 2*Math.PI);
+draw.fillStyle = "black";
+draw.fill();
