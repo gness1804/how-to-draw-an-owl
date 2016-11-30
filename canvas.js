@@ -47,5 +47,12 @@ draw.lineTo(309, 167);
 draw.strokeStyle = "yellow";
 draw.stroke();
 draw.fillStyle = "yellow";
-draw.fill(); 
+draw.fill();
 //draw.closePath(); //again, not needed if using draw.fill()
+
+//the wing on the right
+
+window.onload = () => {
+  const imageName = document.getElementById("wing-right");
+  draw.drawImage(imageName, 435, 243, 150, 150);
+};
