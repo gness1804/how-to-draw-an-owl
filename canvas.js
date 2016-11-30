@@ -10,3 +10,10 @@ draw.arc(354, 519, 150, 0, 2*Math.PI);
 draw.fillStyle = "rgb(175, 184, 190)";
 draw.fill();
 // draw.closePath(); //not needed if using "fill()"
+
+//the top part of the body
+
+draw.beginPath();
+draw.arc(354, 300, 100, 0, 2*Math.PI);
+draw.fillStyle = "rgb(175, 184, 190)";
+draw.fill();
